@@ -1,0 +1,77 @@
+import { StyleSheet } from 'react-native';
+
+export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    padding: 20,
+    backgroundColor: '#F5F5F5',
+  },
+  titulo: {
+    fontSize: 24,
+    fontWeight: 'bold',
+    textAlign: 'center',
+    marginBottom: 20,
+    color: '#222',
+  },
+  formRow: {
+    flexDirection: 'row',
+    marginBottom: 20,
+  },
+  inputProduto: {
+    flex: 2,
+    backgroundColor: '#FFF',
+    height: 48,
+    borderWidth: 1,
+    borderColor: '#DDD',
+    borderRadius: 8,
+    paddingHorizontal: 12,
+    fontSize: 16,
+  },
+  inputQtd: {
+    flex: 1,
+    backgroundColor: '#FFF',
+    height: 48,
+    borderWidth: 1,
+    borderColor: '#DDD',
+    borderRadius: 8,
+    paddingHorizontal: 10,
+    fontSize: 16,
+    marginLeft: 8,
+  },
+  botaoAdicionar: {
+    backgroundColor: '#2E7D32',
+    width: 48,
+    height: 48,
+    borderRadius: 8,
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginLeft: 8,
+  },
+  cardItem: {
+    backgroundColor: '#FFF',
+    padding: 15,
+    borderRadius: 8,
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginBottom: 10,
+    borderWidth: 1,
+    borderColor: '#E0E0E0',
+  },
+  nomeProduto: {
+    fontSize: 17,
+    fontWeight: 'bold',
+    color: '#222',
+  },
+  qtdProduto: {
+    fontSize: 14,
+    color: '#666',
+    marginTop: 2,
+  },
+  textoVazio: {
+    textAlign: 'center',
+    color: '#888',
+    fontSize: 16,
+    marginTop: 30,
+  },
+});
